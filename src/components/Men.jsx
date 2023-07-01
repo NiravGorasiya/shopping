@@ -1,20 +1,20 @@
 import React, { Fragment } from 'react'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import { ProductData } from '../data/ProductData';
 import { Container } from 'react-bootstrap';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { menData } from '../data/ProductData';
 import { Link } from 'react-router-dom';
 
-const Product = () => {
+const Men = () => {
     return (
         <Container>
             <Row>
-                {ProductData?.map((product) => (
-                    <Fragment key={product.id}>
+                {menData?.map((product, index) => (
+                    <Fragment key={index}>
                         <Col>
-                            <Card style={{ width: '18rem' }} className='mb-2' key={product.id}>
+                            <Card style={{ width: '18rem' }} className='mb-2'>
                                 <Card.Img variant="top" src={product.image} />
                                 <Card.Body>
                                     <Card.Title>{product.name}</Card.Title>
@@ -30,4 +30,4 @@ const Product = () => {
     )
 }
 
-export default Product
+export default Men
