@@ -1,0 +1,45 @@
+@import "../../color.scss";
+
+.single_blog {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  .single_blog_img {
+    position: relative;
+    .blog_date {
+      background-color: $primary-color;
+      color: #fff;
+      font-size: 13px;
+      right: 10px;
+      padding: 6px 13px;
+      position: absolute;
+      text-transform: uppercase;
+      border-radius: 2px;
+      bottom: 10px;
+      z-index: 9;
+      .bd_month {
+        font-size: 13px;
+        font-weight: 700;
+      }
+    }
+  }
+  .blog-content {
+    padding: 10px 30px 10px;
+    .meta-data {
+      margin-top: 5px;
+      display: flex;
+      margin-bottom: 13px;
+      li {
+        margin-right: 22px;
+        font-size: 13px;
+        text-transform: capitalize;
+      }
+    }
+    h4 {
+      font-size: 17px;
+      font-weight: 500px;
+      margin-bottom: 10px;
+    }
+    .post-title {
+      margin-top: 10px;
+    }
+  }
+}

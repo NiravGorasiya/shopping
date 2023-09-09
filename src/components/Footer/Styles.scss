@@ -1,0 +1,70 @@
+@import "../../color.scss";
+
+.footer_area {
+  padding: 0px;
+  position: relative;
+  color: #d6d6d6;
+  word-break: break-all;
+  word-wrap: break-word;
+  z-index: 100;
+  .footer-top {
+    padding: 80px 0px 30px;
+    background-color: $primary-color;
+    font-size: 19px;
+    .single_ftr {
+      margin-bottom: 30px;
+      ul li {
+        margin-bottom: 8px;
+        .infomation {
+          color: #d6d6d6;
+          text-decoration: none;
+        }
+        .services {
+          color: #d6d6d6;
+          text-decoration: none;
+        }
+      }
+      .sf_title {
+        color: white;
+        text-transform: capitalize;
+        font-size: 19px;
+        margin-top: 0px;
+        margin-bottom: 25px;
+        letter-spacing: 1px;
+      }
+    }
+  }
+
+  .ftr_btm_area {
+    padding-top: 25px;
+    padding-bottom: 20px;
+    z-index: 100;
+    position: relative;
+    background: blue;
+    .ftr_social_icon {
+      li {
+        display: inline-block;
+        text-align: center;
+        padding: 4px;
+        .social_link {
+          color: #dedede;
+          text-align: center;
+          border-radius: 50%;
+          display: inline-block;
+          font-size: 14px;
+          height: 35px;
+          width: 35px;
+          line-height: 35px;
+          transition: 0.5s;
+          border: 1px solid #d6d6d6;
+        }
+      }
+    }
+    .payment_mth_icon {
+      margin-top: 10px;
+      img {
+        display: inline-block;
+      }
+    }
+  }
+}

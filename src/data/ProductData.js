@@ -22,6 +22,46 @@ const ProductData = [
         price: 469,
         description: "ANNI DESIGNER Women's Cotton Blend Straight Printed Kurta with Pant Set (Tbh Blue-1)",
         link: 'https://amzn.to/46HgjZg'
+    },
+    {
+        id: 3,
+        name: "Women's Cotton Blend Straight Printed Kurta",
+        image: "https://m.media-amazon.com/images/I/71P2daqRSyL._UY741_.jpg",
+        price: 469,
+        description: "ANNI DESIGNER Women's Cotton Blend Straight Printed Kurta with Pant Set (Tbh Blue-1)",
+        link: 'https://amzn.to/46HgjZg'
+    },
+    {
+        id: 1,
+        name: "Women's Cotton Blend Straight Printed Kurta",
+        image: "https://m.media-amazon.com/images/I/71P2daqRSyL._UY741_.jpg",
+        price: 469,
+        description: "ANNI DESIGNER Women's Cotton Blend Straight Printed Kurta with Pant Set (Tbh Blue-1)",
+        link: "https://amzn.to/46HgjZg"
+    },
+    {
+        id: 2,
+        name: "Women's Cotton Blend Straight Printed Kurta",
+        image: "https://m.media-amazon.com/images/I/71P2daqRSyL._UY741_.jpg",
+        price: 469,
+        description: "ANNI DESIGNER Women's Cotton Blend Straight Printed Kurta with Pant Set (Tbh Blue-1)",
+        link: "https://amzn.to/46HgjZg"
+    },
+    {
+        id: 3,
+        name: "Women's Cotton Blend Straight Printed Kurta",
+        image: "https://m.media-amazon.com/images/I/71P2daqRSyL._UY741_.jpg",
+        price: 469,
+        description: "ANNI DESIGNER Women's Cotton Blend Straight Printed Kurta with Pant Set (Tbh Blue-1)",
+        link: 'https://amzn.to/46HgjZg'
+    },
+    {
+        id: 3,
+        name: "Women's Cotton Blend Straight Printed Kurta",
+        image: "https://m.media-amazon.com/images/I/71P2daqRSyL._UY741_.jpg",
+        price: 469,
+        description: "ANNI DESIGNER Women's Cotton Blend Straight Printed Kurta with Pant Set (Tbh Blue-1)",
+        link: 'https://amzn.to/46HgjZg'
     }
 ]
 

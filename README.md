@@ -68,3 +68,19 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+            {/* // <Navbar bg="primary" className='mb-5' data-bs-theme="dark">
+        //     <Container>
+        //         <Navbar.Brand href="#home">Global Market</Navbar.Brand>
+        //         <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        //         <Navbar.Collapse id="basic-navbar-nav"></Navbar.Collapse>
+        //         <Nav className="me-auto">
+        //             <Link to="/" className='text-light me-5 text-decoration-none text-capitalize'>Home</Link>
+        //             <Link to="/men" className='text-light me-5 text-decoration-none text-capitalize'>Men</Link>
+        //             <Link to="/women" className='text-light me-5 text-decoration-none text-capitalize'>Women</Link>
+        //         </Nav>
+        //         <NavDropdown title="Pages" className='text-light me-1 text-decoration-none text-capitalize' id="basic-nav-dropdown">
+        //             <Link>Action</Link>
+        //         </NavDropdown>
+        //     </Container>
+        // </Navbar> */
